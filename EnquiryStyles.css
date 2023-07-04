@@ -1,0 +1,89 @@
+.enquiry{
+    width:100%;
+    height:90vh;
+    background-image: url('https://media.easemytrip.com/media/Blog/India/637975525656984536/637975525656984536ebhKpx.jpg');
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* filter:brightness(50%); */
+}
+.main-form{
+    /* filter: brightness(150%); */
+    width:60%;
+    height:70vh;
+    position: absolute;
+    left:50%;
+    transform: translate(-50%);
+    
+}
+.main-form .top-head{
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    color:powderblue;
+    text-shadow: 1px 1px 5px  black;
+    font-weight: 600;
+    margin-bottom: 3rem;
+    padding-top: 2rem;
+    
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    border:2px solid black;
+    border-radius: 8px;
+    box-shadow: 1px 2px 35px rgb(52, 44, 44);
+    padding: 3rem;
+    background-color:transparent;
+    filter: brightness(110%);
+}
+.form label{
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: .5rem;
+    margin-top: .7rem;
+    color:white;
+    background-color:transparent;
+}
+.form input{
+    background-color:transparent;
+    outline:none;
+    font-size: 1rem;
+    border:none;
+    border-bottom:2px solid  white;
+    margin-bottom: .5rem;
+    color:white;
+    text-transform: uppercase;
+}
+.button1{
+    margin-top: 1rem;
+}
+.button1 button{
+    font-size: rem;
+    padding: 5px;
+    background-color: peru;
+    text-transform: uppercase;
+    color:white;
+    border-radius: 10px;
+    padding-left:15px;
+    padding-right:15px;
+    
+
+}
+
+@media screen and (max-width:550px){
+    .enquiry{
+        height:85vh;
+    }
+    .main-form{
+        /* filter: brightness(150%); */
+        width:90%;
+        height:70vh;
+        position: absolute;
+        left:50%;
+        transform: translate(-50%);
+        
+    }
+    
+}

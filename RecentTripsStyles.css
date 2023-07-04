@@ -1,0 +1,344 @@
+.RecentTrip{
+    margin:3rem 6rem;
+}
+.RecentTrip .head h6{
+    font-size: 2rem;
+    text-transform: uppercase;
+    color:peru;
+}
+.RecentTrips {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    
+}
+.Trips{
+    width:24%;
+    border:0px solid black;
+    box-shadow: 1px 1px 5px black;
+    margin:10px;
+    padding:5px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.trip-image img{
+    width:99%;
+    height:200px;
+    transition: .2s ease-in-out;
+}
+.trip-image img:hover{
+    transform: scale(1.03);
+    transition: .2s ease-in-out;
+}
+
+.trip-head{
+    font-size: 1.7rem;
+    font-weight: 600;
+    text-transform:capitalize;
+    color:peru;
+    padding:10px;
+}
+.trip-para{
+    font-size: 1rem;
+    text-align: justify;
+    padding:10px;
+    padding-top: 0;
+    word-spacing: 2px;
+}
+.check{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+.check button{
+    font-size:1rem;
+    text-transform: capitalize;
+    color:white;
+    background-color: peru;
+    padding:5px;
+    border-radius: 5px;
+    border: none;
+    outline:none;
+}
+.check label{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width:1000px){
+
+    .RecentTrip{
+        margin:1rem 1rem;
+    }
+    .RecentTrip .head h6{
+        font-size: 1.5rem;
+    }
+    .RecentTrips {
+        margin-top: 1rem;   
+    }
+    .Trips{
+        width:31%;
+    }
+    
+    .trip-head{
+        font-size: 1.4rem;
+    }
+    .trip-para{
+        font-size: .8rem;
+    }
+    .check{
+        padding: 8px;
+    }
+    .check button{
+        font-size:.8rem;
+    }
+    .check label{
+        font-size: .8rem;
+    }
+
+}
+
+@media screen and (max-width:800px){
+    .RecentTrip .head h6{
+        font-size: 1.5rem;
+    }
+    .Trips{
+        width:44%;
+    }
+
+}
+
+@media screen and (max-width:550px){
+    .RecentTrip{
+        margin:0rem 0rem;
+    }
+    .RecentTrip .head h6{
+        font-size: 1.2rem;
+    }
+    .RecentTrips {
+        margin-top: 0rem;   
+    }
+    .Trips{
+        width:95%;
+        
+    }
+    
+    .trip-head{
+        font-size: 1rem;
+        margin: 0;
+    }
+    .trip-para{
+        font-size: 0.9rem;
+        margin-top: 0;
+    }
+    .check{
+        padding: 5px 10px;
+        margin-top: -1rem;
+    }
+    .check button{
+        font-size:.8rem;
+        width:120%;
+    }
+    .check label{
+        font-size: .8rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .RecentTrips{
+    width:100%;
+    margin: 2rem 6rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 5rem;
+    cursor: pointer;
+}
+.head{
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: peru;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    border-bottom: 2px solid peru;
+}
+.head h6{
+    margin-bottom: 10px;
+}
+.RecentTrips h3{
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color:peru;
+}
+.Trips{
+    border: 1px solid;
+    box-shadow: 1px 1px 12px black;
+    margin: 1rem;
+    width:24%;
+    margin-bottom: 0;
+}
+.trip-image{
+    width:100%;
+    height:250px;
+    align-items: center;
+    padding: 8px;
+    transition: .2s ease-in-out;
+}
+.trip-image:hover{
+    padding: 4px;
+    transition: .2s ease-in-out;
+}
+
+.trip-head {
+    font-size: 1.5rem;
+    margin: .5rem;
+    color:peru;
+    text-transform: capitalize;
+}
+
+.trip-para p{
+    font-size: .8rem;
+    text-align:justify;
+    margin: 18px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.check{
+    width:88%;
+    display: flex;
+    height:50px;
+    align-items: center;
+    justify-content: space-between;
+    margin:18px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.check button{
+    font-size: .9rem;
+    text-transform: capitalize;
+    color:white;
+    background-color: peru;
+    font-weight: 600;
+    border:none;
+    outline:none;
+    padding:5px;
+    
+}
+.check label{
+    font-size: 1rem;
+    font-weight: 600;
+}
+ 
+
+@media screen and (max-width:750px){
+    .RecentTrips{
+        margin-top: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .Trips{
+        border: 1px solid;
+        box-shadow: 1px 1px 5px black;
+        margin-top: 1rem;
+        width:100%;
+    }
+    .RecentTrips h3{
+        font-size: 1.7rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        color:peru;
+    }
+    .trip-image{
+        width:90%;
+        height:230px;
+        align-items: center;
+        box-shadow: 1px 1px 10px black;
+        margin-left: 5%;
+        margin-top: 2rem;
+    }
+
+    .trip-head {
+        font-size: 1.5rem;
+        margin: .7rem;
+        text-transform: capitalize;
+    }
+    
+    .trip-para p{
+        font-size: 1rem;
+        width:80%;
+        margin-left: 10%;
+        margin-bottom: 1rem;
+    }
+    .check button{
+        font-size: .7rem;
+        margin-bottom: 1rem;
+    }
+    
+
+} */

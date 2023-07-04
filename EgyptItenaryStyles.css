@@ -1,0 +1,177 @@
+.Egypt-Itenary{
+    background-image: url('https://images.unsplash.com/photo-1539650116574-8efeb43e2750?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 5rem;
+}
+.details{
+    margin:4rem 6rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+}
+.Egypt-Itenary .heading h1{
+    border-bottom: 2px solid peru;
+    padding-top: 3rem;
+    font-size: 2rem;
+    color:peru;
+    margin: 0rem 6rem ;
+    padding-bottom: 1rem;
+}
+.details .images{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+}
+.details .images img{
+    width:31%;
+    height:250px;
+    margin: 10px;
+    justify-content: space-between;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px black;
+}
+.details .images img:hover{
+    transform: scale(1.01);
+}
+.details .imagess{
+    /* margin-left: 10rem; */
+    width:100%;
+}
+
+.details .imagess img{
+    width:20%;
+    height:400px;
+    margin: 19px;
+    justify-content: space-between;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px black;
+}
+.details .imagess img:hover{
+    transform: scale(1.01);
+}
+.itenary{
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.itenary .day{
+    width:31%;
+    border:2px solid black;
+    margin:15px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px black;
+    /* background-color: white; */
+}
+.day h2{
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    text-align: start;
+    padding-left: 29px;
+    margin-top: .9rem;
+    font-weight: 600;
+}
+.day p{
+    font-size:.9rem;
+    text-transform: capitalize;
+    text-align:justify;
+    font-weight: 600;
+}
+
+
+
+@media screen and (max-width:1055px){
+    .details{
+        margin:2rem 3rem;
+    }
+    .itenary .day{
+        width:45%;
+        margin:15px;
+    }
+}
+
+@media screen and (max-width:950px){
+    .details{
+        margin:1rem 2rem;
+    }
+    .details .images img{
+        width:47%;
+    }
+ 
+}
+
+@media screen and (max-width:730px){
+    .details{
+        margin:2rem 6rem;
+    }
+    .details .images img{
+        width:100%;
+    }
+    .itenary .day{
+        width:70%;
+        margin:15px;
+    }
+}
+
+@media screen and (max-width:700px){
+    .Egypt-Itenary{
+        padding: 3rem;
+    }
+    .details{
+        margin:1rem 1rem;
+    }
+    .Egypt-Itenary .heading h1{
+        font-size: 1.5rem;
+        width: 100%;
+        margin: 0rem 0rem ;
+    }
+    .details .images{
+        display: flex;
+        flex-wrap: wrap;
+        width:100%;
+    }
+    .details .images img{
+        width:100%;
+        margin:0px;
+        margin-bottom: 1rem;
+        border-radius: 0px;
+        box-shadow:none;
+        padding: 0;
+        border: 1px solid black;
+    }
+
+    .itenary{
+        width:100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .itenary .day{
+        width:100%;
+        border:none;
+        margin:0px;
+        border-radius: 0px;
+        box-shadow:none;
+        background-color: white;
+        margin-bottom: 1rem;
+    }
+    .day h2{
+        font-size: 1rem;
+        padding-left:5px;
+        margin-top:5px;
+        font-weight: 600;
+    }
+    .day p{
+        font-size:.7rem;
+        text-transform: capitalize;
+        text-align:justify;
+        font-weight: 400;
+        padding: 5px;
+        word-spacing: 2px;
+        line-height: 1.1rem;
+    }
+    
+}

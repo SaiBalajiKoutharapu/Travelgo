@@ -1,0 +1,179 @@
+.plantrip {
+  background-image: url("https://images.unsplash.com/photo-1577717903315-1691ae25ab3f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  padding-bottom: 3rem;
+  margin-top: 4.5em;
+  z-index: -1;
+}
+.plantrip .cards-main {
+  margin: 3rem 8rem;
+}
+
+.head {
+  border-bottom: 2px solid peru;
+}
+.head h2 {
+  font-size: 2rem;
+  color: peru;
+  text-transform: uppercase;
+  word-spacing: 4px;
+  margin-bottom: 1rem;
+  padding-top: 2rem;
+}
+
+.egypt-card {
+  border: 2px solid black;
+  box-shadow: 1px 1px 10px black;
+  border-radius: 7px;
+  margin-top: 2rem;
+  transition: 0.3s ease-in-out;
+  margin-bottom: 4em;
+  background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(234, 234, 234, 0.2));
+}
+.egypt-card:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.egypt-card .egypt-heading {
+  margin: 1rem 2rem;
+}
+.egypt-card h3 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  text-align: start;
+  color: black;
+}
+.egypt-card p {
+  font-size: 1rem;
+  margin-top: 1rem;
+  text-align: justify;
+  line-height: 1.5rem;
+}
+.egypt-card .includes {
+  font-size: 0.5rem;
+  text-transform: capitalize;
+  text-align: start;
+  margin-top: 0.7rem;
+  margin: 1rem 2rem;
+}
+.egypt-card .includes .symbols {
+  font-size: 1rem;
+  color: peru;
+}
+.egypt-card .includes .symbols .icon {
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+}
+.egypt-card .cards {
+  margin-top: 0.5rem;
+  margin: 1rem 2rem;
+  margin-top: 1rem;
+  border: 2px solid black;
+  border-radius: 15px;
+  z-index: -1;
+}
+.egypt-card .cards .card {
+  margin: 10px;
+}
+.egypt-card .cards .card img {
+  width: 100%;
+  height: 250px;
+  border-radius: 15px;
+}
+.egypt-card .cards .carousel {
+  z-index: 0;
+}
+.egypt-card .btn {
+  font-size: 1rem;
+  text-transform: uppercase;
+  border: 2px solid peru;
+  background-color: peru;
+  padding: 8px;
+  padding-top: 3px;
+  width: 50%;
+  margin-left: 26%;
+  margin-bottom: 0.7rem;
+  border-radius: 15px;
+  color: white;
+  font-weight: 600;
+  transition: 0.4s ease-in-out;
+}
+.egypt-card .btn:hover {
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 1000px) {
+  .plantrip .cards-main {
+    margin: 2rem 4rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .plantrip .cards-main {
+    margin: 1rem 1rem;
+  }
+  .head {
+    border-bottom: 2px solid peru;
+  }
+  .head h2 {
+    font-size: 1.4rem;
+    margin-bottom: 0.3rem;
+    padding-top: 2rem;
+  }
+  .egypt-card {
+    border: 1px solid black;
+    box-shadow: none;
+    border-radius: 0px;
+    margin-top: 0rem;
+    transition: 0.3s ease-in-out;
+    margin-bottom: 2em;
+    background: white;
+  }
+  .egypt-card:hover {
+    transform: scale(1);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  .egypt-card .egypt-heading {
+    margin: 1rem 1rem;
+  }
+  .egypt-card h3 {
+    font-size: 1.3rem;
+  }
+  .egypt-card p {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+  }
+  .egypt-card .includes {
+    display: none;
+  }
+  .egypt-card .cards {
+    margin-top: 0.5rem;
+    margin: 10px;
+    border: none;
+    border-radius: 0px;
+  }
+  .egypt-card .cards .card {
+    margin: 0px;
+  }
+  .egypt-card .cards .card img {
+    width: 100%;
+    height: 150px;
+    border-radius: 0px;
+  }
+  .egypt-card .btn {
+    font-size: 0.8rem;
+    padding: 0px;
+    padding-top: 0px;
+    width: 95%;
+    margin-left: 0%;
+    margin-bottom: 0.7rem;
+    border-radius: 0px;
+    color: white;
+    font-weight: 500;
+  }
+}/*# sourceMappingURL=PlanTripStyles.css.map */
